@@ -14,10 +14,10 @@
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, .4);
-  --color-success: #35b854; /* Grün für Erfolgsmeldungen */
+  --color-success: #35b854; 
   --color-warning: #ffc107; 
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, .6);
+  --color-light: #ffffff99;
 
   --transition: all .4s ease;
 
@@ -25,7 +25,8 @@
   --container-md: 87%;
   --container-sm: 96%;
 }
-  /* Stil für den Light-Modus */
+
+/* style light modus */
   .light {
     --bg: #f0f0f0;
     --text: #333;
@@ -35,7 +36,7 @@
     --button-text: #fff;
   }
 
-  /* Stil für den Dark-Modus */
+  /* style dark modus */
   .dark {
     --bg: #222;
     --text: #ddd;
@@ -103,8 +104,8 @@ h1{
 }
 
 .btn:hover{
-  background: transparent;
-  color: var(--color-success);
+  background: var(--color-white);
+  color: var(--color-bg);
   border-color: var(--color-success);
 }
 
