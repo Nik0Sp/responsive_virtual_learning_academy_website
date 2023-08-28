@@ -213,6 +213,41 @@ header p {
 }
 
 /* ========END OF SECTION HEADER========= */
+/* ========START SECTION ICON========= */
+.icons-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(25rem,1fr));
+    justify-items: center;
+    gap: 1.8rem;
+}
+
+.icons-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    padding: 2rem 0;
+    border:1px solid var(--color-primary-variant);
+    padding: 1rem 2.5rem;
+    border-radius: .6rem;
+}
+
+.icons-container .icons i{
+    font-size: 3rem;
+    color: var(--color-primary-variant)
+}
+
+
+.icons-container .icons h3{
+    color: var(--color-white);
+    font-size: 2.2rem;
+}
+
+.icons-container .icons p{
+    color: var(--color-light);
+    font-size: 1.2rem;
+}
+/* ========END OF SECTION ICON========= */
 /* ========START SECTION COURSE========= */
 
 #courses {
