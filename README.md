@@ -12,7 +12,7 @@
 
 To get started with Virtual Learning Academy Sentor, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `git clone https://github.com/Nik0Sp/responsive_virtual_learning_academy_website.git`
 2. Open the `index.html` file in your web browser.
 3. Explore the website to learn more about the academy's courses and offerings.
 
